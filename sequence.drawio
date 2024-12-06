@@ -27,7 +27,7 @@
         </mxCell>
         <mxCell id="XysUP8YYmFXSR3hWkTVW-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.58" y="380" as="sourcePoint" />
+            <mxPoint x="310" y="540" as="sourcePoint" />
             <mxPoint x="309.58" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -42,13 +42,13 @@
         </mxCell>
         <mxCell id="XysUP8YYmFXSR3hWkTVW-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XysUP8YYmFXSR3hWkTVW-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="540" as="sourcePoint" />
             <mxPoint x="520" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XysUP8YYmFXSR3hWkTVW-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XysUP8YYmFXSR3hWkTVW-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="380" as="sourcePoint" />
+            <mxPoint x="710" y="520" as="sourcePoint" />
             <mxPoint x="520" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -118,6 +118,69 @@
         </mxCell>
         <mxCell id="XysUP8YYmFXSR3hWkTVW-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=50;" vertex="1" parent="1">
           <mxGeometry x="160" y="270" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-37" value="Vérification de la date" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1111" y="61" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="370" as="sourcePoint" />
+            <mxPoint x="309" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="339" y="370" />
+              <mxPoint x="339" y="380" />
+              <mxPoint x="339" y="400" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-38" value="GET de la surprise" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="430" />
+            </Array>
+            <mxPoint x="510" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-39" value="Récupération de la donnée" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="595" y="440" />
+            </Array>
+            <mxPoint x="710" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-40" value="Envoi de la donnée" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="595" y="460" />
+            </Array>
+            <mxPoint x="510" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-41" value="Envoi de la surprise JSON" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="470" />
+            </Array>
+            <mxPoint x="310" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-42" value="Affichage de la surprise" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="480" />
+            </Array>
+            <mxPoint x="170" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-43" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XysUP8YYmFXSR3hWkTVW-44" value="Succès" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3d962c;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
